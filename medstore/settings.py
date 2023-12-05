@@ -53,7 +53,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'django.contrib.staticfiles.middleware.StaticFilesMiddleware',
     
 ]
 
@@ -149,8 +148,3 @@ SITE_ID = 1
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = [
-    # Paths to additional static files (if any)
-]
-
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
